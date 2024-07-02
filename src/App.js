@@ -9,7 +9,7 @@ import Experience from "./pages/experience/experienceP";
 function App() {
   return (
     <div className="App">
-      <Router basename="/professionalprofile.github.io">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
