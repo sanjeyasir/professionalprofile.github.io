@@ -44,30 +44,8 @@ const Projects = () => {
           </Grid>
 
           
-           <Grid item xs={8} sm={5} md={3} style={{ marginTop: '15px' }}>
-            <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px', borderRadius: '20px', height: '100%' }}>
-              <img src={decathlonImage} alt="Decathlon Integration" style={{ width: '100%', borderRadius: '10px' }} />
-              <Typography variant="h6" fontWeight="medium" sx={{ fontFamily: 'Roboto', textAlign: 'center', marginTop: '10px' }}>
-                Decathlon Integration
-              </Typography>
-              <Button variant="contained" onClick={() => handleOpen('Decathlon Integration', ComponentDecathlon)} style={{ marginTop: '10px' }}>
-                Learn More
-              </Button>
-            </Card>
-          </Grid>
-
-         
-          <Grid item xs={8} sm={5} md={3} style={{ marginTop: '15px' }}>
-            <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px', borderRadius: '20px', height: '100%' }}>
-              <img src={coatsImage} alt="Coats Integration" style={{ width: '100%', borderRadius: '10px' }} />
-              <Typography variant="h6" fontWeight="medium" sx={{ fontFamily: 'Roboto', textAlign: 'center', marginTop: '10px' }}>
-                Coats Integration
-              </Typography>
-              <Button variant="contained" onClick={() => handleOpen('Coats Integration', ComponentCoats)} style={{ marginTop: '10px' }}>
-                Learn More
-              </Button>
-            </Card>
-          </Grid>
+          
+  
 
          
           <Grid item xs={8} sm={5} md={3} style={{ marginTop: '15px' }}>
@@ -84,17 +62,7 @@ const Projects = () => {
 
 
          
-          <Grid item xs={8} sm={5} md={3} style={{ marginTop: '15px' }}>
-            <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px', borderRadius: '20px', height: '100%' }}>
-              <img src={powerPlatformImage} alt="PowerApps Development" style={{ width: '100%', borderRadius: '10px' }} />
-              <Typography variant="h6" fontWeight="medium" sx={{ fontFamily: 'Roboto', textAlign: 'center', marginTop: '10px' }}>
-                PowerApps Application Development and Workflows
-              </Typography>
-              <Button variant="contained" onClick={() => handleOpen('PowerApps Application Development and Workflows', ComponentPowerApps)} style={{ marginTop: '10px' }}>
-                Learn More
-              </Button>
-            </Card>
-          </Grid>
+         
   
          
         </Grid>
